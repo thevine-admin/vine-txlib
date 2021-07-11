@@ -1,15 +1,16 @@
 # vine-txlib
 
 VINE SDK v1.0 라이브러리 적용방법
+
 1. 헤더파일과 바이너리 파일을 컴파일 환경에 추가
-vine_lib.h, vine_lib.a
+	vine_lib.h, vine_lib.a
 
 2. 소스코드에서 헤더파일 인클루드
-#include “vine_lib.h”
+	#include “vine_lib.h”
 
 3. 라이브러리 제공기능 (v1.0)
+- AGC (Auto Gain Control) [8K, 16K]: 통화중 송신음 음량 최적화
 
-AGC (Auto Gain Control) [8K, 16K]: 통화중 송신음 음량 최적화
 
 AGC
 AGC 는 초기화, 프로세싱 함수(8K, 16K)로 구성되어 있으며 별도의 종료함수가 없습니다.
